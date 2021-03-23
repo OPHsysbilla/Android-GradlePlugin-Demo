@@ -6,8 +6,8 @@ repositories {
 }
 
 dependencies {
-  compile gradleApi()
-  compile localGroovy()
+  implementation gradleApi()
+  implementation localGroovy()
 }
 
 //设置maven deployer
